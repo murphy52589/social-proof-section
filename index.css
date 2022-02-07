@@ -1,0 +1,65 @@
+
+.body-wrapper {
+    font-size: 15px;
+    font-family: Spartan, serif;
+}
+
+.main-text {
+    min-width: 25em;
+    padding-right: 5em;
+}
+
+
+.main-text-and-ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text-upper {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    inline-size: 10em;
+    overflow-wrap: break-word;
+}
+
+.main-text-lower {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    max-width: 25em;
+    overflow-wrap: break-word;
+}
+
+.ratings-wrapper {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.ratings {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 25em;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.ratings-text {
+    padding-left: 2em;
+}
+
+.middle-rating {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+}
+
+.bottom-rating {
+    margin-left: 6em;
+}
+
+.customer-reviews {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+}
