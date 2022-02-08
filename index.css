@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 17em;
 }
 
 .main-text-upper {
@@ -59,8 +60,10 @@
 }
 
 .customer-reviews {
-
-
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 3em;
 }
 
 .verified-buyer {
