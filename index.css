@@ -1,4 +1,3 @@
-
 .body-wrapper {
     font-size: 15px;
     font-family: Spartan, serif;
@@ -39,7 +38,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    min-width: 25em;
+    width: 27em;
     background-color: hsl(300, 24%, 96%);
     border-radius: 1em;
     padding-left: 2em;
@@ -68,11 +67,38 @@
     color: hsl(333, 80%, 67%);
 }
 
-.customer-review-colton {
-    max-width: 20em;
+.customer-review-card {
+    max-width: 26em;
     background-color: hsl(300, 43%, 22%);
+    border-radius: 6px;
+}
+
+.customer-image-name {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-left: 2em;
+    padding-top: 2em;
+}
+
+.customer-picture {
+    border-radius: 3em;
+    height: 3em;
+    width: 3em;
+}
+
+.name-and-verification {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name-colton {
+    color: hsl(300, 24%, 96%);
 }
 
 .review-text {
     color: hsl(300, 24%, 96%);
+    padding: 2em;
 }
