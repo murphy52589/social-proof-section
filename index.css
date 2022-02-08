@@ -77,6 +77,14 @@
     border-radius: 6px;
 }
 
+.customer-review-card:nth-child(2) {
+    margin-top: 2.5em;
+}
+
+.customer-review-card:nth-child(3) {
+    margin-top: 5em;
+}
+
 .customer-image-name {
     display: flex;
     justify-content: flex-start;
