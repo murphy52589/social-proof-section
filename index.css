@@ -60,6 +60,19 @@
 }
 
 .customer-reviews {
-    color: hsl(0, 0%, 100%);
+
+
+}
+
+.verified-buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.customer-review-colton {
+    max-width: 20em;
     background-color: hsl(300, 43%, 22%);
+}
+
+.review-text {
+    color: hsl(300, 24%, 96%);
 }
