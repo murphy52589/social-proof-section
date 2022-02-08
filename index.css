@@ -24,7 +24,7 @@
 }
 
 .main-text-lower {
-    color: hsl(303, 10%, 53%);
+    color: #a9a9a9;
     font-weight: 500;
     max-width: 25em;
     overflow-wrap: break-word;
@@ -72,6 +72,7 @@
 
 .customer-review-card {
     max-width: 26em;
+    height: 17em;
     background-color: hsl(300, 43%, 22%);
     border-radius: 6px;
 }
